@@ -100,7 +100,7 @@ nav {
 
 .info{
     grid-column: 3 / span 4;
-    margin-top: 22%;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -169,6 +169,11 @@ nav {
     margin-bottom: 20px;
 }
 
+.feature_top:hover{
+    cursor: pointer;
+    color: var(--light);
+}
+
 .feature_bottom{
     font-size: 15px;
     font-weight: normal;
@@ -231,4 +236,14 @@ nav {
         width: 100px;
         height: 80;
     }
+}
+
+a {
+    text-decoration: none;
+}
+
+.copy-text {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
 }
